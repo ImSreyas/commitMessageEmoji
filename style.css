@@ -36,6 +36,13 @@ body{
     background-color: transparent;
     border: 1px solid rgb(39, 39, 39);
     outline: none;
-
     font-size: 2rem;
+    transition: background-color 50ms ease-in-out;
+    -webkit-transition: background-color 50ms ease-in-out;
+    -moz-transition: background-color 50ms ease-in-out;
+    -ms-transition: background-color 50ms ease-in-out;
+    -o-transition: background-color 50ms ease-in-out;
+}
+.emoji-btn:active{
+    background-color: rgb(53, 53, 53);
 }
